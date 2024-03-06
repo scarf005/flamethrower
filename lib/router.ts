@@ -1,6 +1,6 @@
-import { FetchProgressEvent, FlamethrowerOptions, RouteChangeData } from './interfaces';
-import { addToPushState, handleLinkClick, handlePopState, scrollTo } from './handlers';
-import { mergeHead, formatNextDocument, replaceBody, runScripts } from './dom';
+import { FetchProgressEvent, FlamethrowerOptions, RouteChangeData } from './interfaces.ts';
+import { addToPushState, handleLinkClick, handlePopState, scrollTo } from './handlers.ts';
+import { mergeHead, formatNextDocument, replaceBody, runScripts } from './dom.ts';
 
 const defaultOpts = {
   log: false,

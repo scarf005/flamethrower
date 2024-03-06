@@ -1,5 +1,5 @@
-import { Router } from './router';
-import { FlamethrowerOptions, FlameWindow } from './interfaces';
+import { Router } from './router.ts';
+import { FlamethrowerOptions, FlameWindow } from './interfaces.ts';
 
 /**
  * @param  {FlamethrowerOptions} opts?

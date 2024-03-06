@@ -1,4 +1,4 @@
-import { RouteChangeData } from './interfaces';
+import { RouteChangeData } from './interfaces.ts';
 
 /**
  * @param  {string} type
